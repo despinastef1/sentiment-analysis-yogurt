@@ -1,0 +1,14 @@
+"cluster","cluster_label","sentiment","frequency"
+1,"aftertaste","Negative",1
+2,"artificial","Negative",2
+3,"creamy","Positive",2
+4,"flavor","Negative",1
+4,"flavor","Neutral",1
+4,"flavor","Positive",3
+5,"natural","Positive",1
+6,"smooth","Positive",2
+7,"sour","Negative",1
+8,"sweet","Negative",3
+8,"sweet","Positive",1
+9,"texture","Positive",4
+10,"thick","Negative",1
