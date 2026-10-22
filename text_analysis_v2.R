@@ -24,7 +24,10 @@ library(ggwordcloud)
 reticulate::install_python()
 reticulate::virtualenv_create("absa_env")
 
-use_virtualenv("absa_env", required = TRUE)
+use_python(
+  "C:/Users/despi/Envs/absa_env/Scripts/python.exe",
+  required = TRUE
+)
 
 py_config()
 py_install(
