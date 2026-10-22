@@ -226,7 +226,14 @@ reticulate::py_install(
 )
 
 
-use_virtualenv("absa_env", required = TRUE)
+library(reticulate)
+
+use_python(
+  "C:/Users/despi/Envs/absa_env/Scripts/python.exe",
+  required = TRUE
+)
+
+py_config()
 
 #identify product attributes
 aspects <- tibble(
@@ -414,7 +421,14 @@ ggplot(
 #start with RoBERTa ABSA Aspect Extraction and Sentiment Model
 #extracts aspect terms and classifies their sentiment in one operation
 
-use_virtualenv("absa_env", required = TRUE)
+library(reticulate)
+
+use_python(
+  "C:/Users/despi/Envs/absa_env/Scripts/python.exe",
+  required = TRUE
+)
+
+py_config()
 
 virtualenv_install(
   envname = "absa_env",
